@@ -6,6 +6,7 @@
         </linearGradient>
     </defs>
     <rect width="100%" height="120" fill="url(#degrade)" />
+    
     <g dominant-baseline="middle" text-anchor="start">
         <text x="20" y="45%" fill="black" font-size="56" font-family="sans-serif">
             Quintiliano Nery

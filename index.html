@@ -5,56 +5,119 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="icon" href="img/ifes.png">
   <title>Portifólio</title>
-  <link rel="icon" type="image/x-icon" href="ico/if.ico">
+
 </head>
 
 <body>
-  <img src="/img/header.svg" alt="svg" width="98.80%" height="120">
-  <div id="menu" type="menu" name="menu">
-    <i><a id="principal" href="index.html">Principal</a></i> ::
-    <a id="quemsou" href="page/quemSou.html">Quem sou</a> ::
-    <a id="projetos" href="page/projetos.html">Projetos</a> ::
-    <a id="contatos" href="page/contato.html">Contatos</a>
+  <div>
+    <table id="cabecalho" width="100%" cellpadding="20">
+      <thead>
+        <tr>
+          <th rowspan="2">
+            <img src="img/logo.png" id="fotPerfil" alt="jpeg">
+          </th>
+          <th id="nomeCompleto">Quintiliano Paquini Nery
+            <br>
+            <div id="atuacao">
+              < QA Pleno e Dev Junior>
+            </div>
+          </th>
+        </tr>
+      </thead>
+    </table>
   </div>
-  <hr>
+  <div>
+    <table id="menu" width="80%" cellpadding="40" >
+      <thead>
+        <tr>
+          <th colspan="2">
+            <div id="linksMenu" type="menu" name="menu">
+              <a id="principal" href="index.html">Principal</a>
+              <a id="quemsou" href="page/quemSou.html">Quem sou</a>
+              <a id="projetos" href="page/projetos.html">Projetos</a>
+              <a id="contatos" href="page/contato.html">Contatos</a>
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody id="areSection">
+        <tr>
+          <td id="colnSection">
+            <h3>Olá, eu sou</h3>
+            <h1 id="colnSectionName">Quintiliano Nery</h1>
+            <h3>
+              <P>Sou formado em Licenciatura em Informática pelo IFES.</P>
+              <p>Atualmente trabalho como Quality Assurance da empresa Take Blip.</p>
+            </h3>
+            <a href="/page/contato.html" id="contateme">Contate-me</a>
+          </td>
+          <td>
+            <img id="profile" name="profile" src="img/quintiliano.jpeg" width="350" alt="img">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <table id="sobre" width="80%" cellpadding="40" >
+      <thead>
+        <tr>
+          <th id="introSobre" colspan="4">O que vai encontrar aqui:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="1">
+            <a href="index.html">Principal</a>
+          </td>
+          <td colspan="3">
+            Esta página em que você se encontra, contendo um resumo de todo meu perfil.
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1">
+            <a href="/page/quemSou.html">Quem sou</a>
+          </td>
+          <td colspan="3">
+            Nesta página apresento uma minibio sobre minha vida profissional com um resumo de
+            minhas habilidades.
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1">
+            <a href="page/projetos.html">Projetos</a>
+          </td>
+          <td colspan="3">
+            Os trabalhos mais relevantes que trabalhei como QA/Dev.
+          </td>
+        </tr>
+        <tr>
+          <td colspan="1">
+            <a href="page/contato.html">Contato</a>
+          </td>
+          <td colspan="3">
+            Os canais para você me encontrar em redes sociais, e-mail e telefone.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="rodape">
+    <table width="100%" cellpadding="20">
+      <thead>
+        <tr>
+          <td>
+            Copyright © 2022 <br>
+            <img src="img/ifes.svg" alt="svg" width="100">
+          </td>
+        </tr>
+      </thead>
+    </table>
+  </div>
 
-  <h3>Olá,</h3>
-  <h1>Eu sou Quintiliano Nery</h1>
-  <img id="profile" name="profile" src="/img/quintiliano.jpeg" width="350" alt="img">
-  <h2>
-    <P>Sou formado em Licenciatura em Informática pelo IFES, onde participei durante 4 anos no programa PIBID IFES.
-      Tenho formação nessa mesma instituição no Curso Técnico em informática.</P>
-
-    <p>Atualmente trabalho como Quality Assurance da empresa Take Blip, onde ajudo a sempre melhorar a qualidade do
-      produto final que é entregue a nossos clientes.</p>
-  </h2>
-  <hr>
-  <h3>O que vai encontrar aqui:</h3>
-
-  <dl>
-    <dt>
-      <a href="index.html">Principal</a>
-    <dd>Esta página em que você se encontra, contendo um resumo de todo meu perfil.</dd>
-    </dt>
-    <dt>
-      <a href="/page/quemSou.html">Quem sou</a>
-    <dd>Nesta página apresento uma minibio sobre minha vida profissional com um resumo de minhas habilidades.</dd>
-    </dt>
-    <dt>
-      <a href="page/projetos.html">Projetos</a>
-    <dd>Os trabalhos mais relevantes que trabalhei como QA/Dev</dd>
-    </dt>
-    <dt>
-      <a href="page/contato.html">Contato</a>
-    <dd>Os canais para você me encontrar em redes sociais, e-mail e telefone</dd>
-    </dt>
-  </dl>
-  <hr>
-  Copyright © 2022
-  <br>
-  <img src="/img/ifes.svg" alt="svg" width="100">
 </body>
 
 </html>

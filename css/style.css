@@ -1,17 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
-  height: 100%;
-  width: 100%;
-  background-color: #dfdfdf;
+  background-color: rgb(29, 29, 29);
+  font-family: Montserrat, Caveat, 'Open Sans', 'Courier New';
+  border: none;
+}
+
+#cabecalho {
+  background-image: linear-gradient(rgb(146, 146, 146), rgb(29, 29, 29));
+}
+
+#fotPerfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: right;
+}
+
+#nomeCompleto {
+  text-align: left;
+  font-size: 40px;
+  font-family: Montserrat;
+  color: white;
+}
+
+#atuacao {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Fira Code', monospace;
+  line-height: 30px;
+  color: white;
 }
 
 #menu {
-  font-size: x-large;
+  background-color: rgb(166, 166, 166);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#linksMenu a {
+  background-color: rgb(135, 135, 135);
+  border-spacing: 80px;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 12px;
+  font-size: 150%;
+  color: rgb(37, 37, 37);
+}
+
+#linksMenu a:hover {
+  border: solid 2px rgb(56, 56, 56);
+  border-spacing: 80px;
+  border-radius: 10px;
+  background-color: rgb(116, 116, 116);
+  display: inline-block;
+  padding: 12px;
+  font-size: 150%;
+}
+
+#linksMenu a:active {
+  border: solid 2px rgb(56, 56, 56);
+  border-spacing: 80px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 12px;
+  font-size: 150%;
+}
+
+
+#colnSection {
+  background-color: rgb(56, 56, 56);
+  width: 400px;
+  height: 300px;
+  border-radius: 5%;
+  float: right;
+  color: white;
+  text-align: center;
 }
 
 #profile {
-  border-radius: 10%
+  width: 400px;
+  border-radius: 5%;
+  border: solid rgb(56, 56, 56) 2px;
 }
 
-#imagem {
-  align-items: center;
+#colnSectionName {
+  font-size: 40px;
+  font-style: italic;
+  font-family: 'lucida sans';
+  color: rgb(125, 125, 125);
+
+}
+
+#contateme {
+  border: solid 2px rgb(56, 56, 56);
+  border-spacing: 50px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 12px;
+  font-size: 150%;
+  color: rgb(73, 73, 73);
+  text-decoration: none;
+}
+
+#introSobre {
+  font-size: 20px;
+}
+
+#sobre {
+  background-color: rgb(166, 166, 166);
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sobre a {
+  font-size: 25px;
+  white-space: nowrap;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+#sobre td {
+  font-size: 20px;
+}
+
+#rodape {
+  text-align: center;
+  background-image: linear-gradient(rgb(29, 29, 29), rgb(146, 146, 146));
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
