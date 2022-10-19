@@ -5,34 +5,112 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="icon" href="../img/ifes.png">
   <title>Contato</title>
-  <link rel="icon" type="image/x-icon" href="../ico/if.ico">
 
 </head>
 
 <body>
-  <img src="/img/header.svg" alt="svg" width="98.80%" height="120">
-  <div id="menu" type="menu" name="menu">
-    <a id="principal" href="../index.html">Principal</a> ::
-    <a id="quemsou" href="quemSou.html">Quem sou</a> ::
-    <a id="projetos" href="projetos.html">Projetos</a> ::
-    <i><a id="contatos" href="contato.html">Contatos</a></i>
+  <div>
+    <table id="cabecalho" width="100%" cellpadding="20">
+      <thead>
+        <tr>
+          <th rowspan="2">
+            <img src="../img/logo.png" id="fotPerfil" alt="jpeg">
+          </th>
+          <th id="nomeCompleto">Quintiliano Paquini Nery
+            <br>
+            <div id="atuacao">
+              < QA Pleno e Dev Junior>
+            </div>
+          </th>
+        </tr>
+      </thead>
+    </table>
   </div>
-  <hr>
+  <div>
+    <table id="menu" width="80%" cellpadding="40">
+      <thead>
+        <tr>
+          <th colspan="2">
+            <div id="linksMenu" type="menu" name="menu">
+              <a id="principal" href="../index.html">Principal</a>
+              <a id="quemsou" href="quemSou.html">Quem sou</a>
+              <a id="projetos" href="projetos.html">Projetos</a>
+              <a id="contatos" href="contato.html">Contatos</a>
+            </div>
+          </th>
+        </tr>
+      </thead>
+    </table>
+  </div>
 
-  <h1>Contato</h1>
+  <div id="corpoPageContato">
+    <table width="80%" cellpadding="40">
+      <thead>
+        <tr>
+          <th id="textDescricaoCabecalho" colspan="8">
+            <h2>Entre em contato</h2> <br>
+            Preencha todos os campos a seguir, e em breve entrarei em contato:
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>
+              <label for="nome">Nome</label> <br>
+              <input type="text" name="Nome" id="nome">
+            </p>
+            <p>
+              <label for="email">E-mail</label><br>
+              <input type="email" name="Email" id="email">
+            </p>
+            <p>
+              <label for="telefone">Telefone</label><br>
+              <input type="tel" name="Telefone" id="telefone">
+            </p>
+            <p>
+              <label for="mensagem">Digite aqui sua mensagem:</label> <br>
+              <textarea name="Mensagem" id="mensagem" cols="50" rows="10"></textarea>
+            </p>
+            <p>
+              <input type="button" value="Enviar" onclick="alert('Mensagem enviada! Obrigado')">
+            </p>
+            <p>sdfsdfsdf</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Outras formas de contato: </h3>
+            
+              Residente em Cachoeiro de Itapemirim/ES <br>
+              <a href="mailto:quintiliano1995@gmail.com">quintiliano1995@gmail.com</a> <br>
+              <a target="_blank" href="https://www.linkedin.com/in/quintilianonery/">Linkedin</a><br>
+              <a target="_blank" href="https://github.com/QuintilianoNery">Git Hub</a>
+            
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-  <ul>
-    <li>Residente em Cachoeiro de Itapemirim/ES</li>
-    <li>quintiliano1995@gmail.com</li>
-    <li><a target="_blank" href="https://www.linkedin.com/in/quintilianonery/">Linkedin</a></li>
-    <li><a target="_blank" href="https://github.com/QuintilianoNery">Git Hub</a></li>
-  </ul>
-  <hr>
-  Copyright © 2022
-  <br>
-  <img src="/img/ifes.svg" alt="svg" width="100">
+
+
+  <div id="rodape">
+    <table width="100%" cellpadding="20">
+      <thead>
+        <tr>
+          <td>
+            Copyright © 2022 <br>
+            <img src="../img/ifes.svg" alt="svg" width="100">
+          </td>
+        </tr>
+      </thead>
+    </table>
+  </div>
+
 </body>
 
 </html>

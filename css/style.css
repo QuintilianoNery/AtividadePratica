@@ -72,7 +72,6 @@ body {
   font-size: 150%;
 }
 
-
 #colnSection {
   background-color: rgb(56, 56, 56);
   width: 400px;
@@ -85,6 +84,7 @@ body {
 
 #profile {
   width: 400px;
+  height: 300px;
   border-radius: 5%;
   border: solid rgb(56, 56, 56) 2px;
 }
@@ -131,6 +131,87 @@ body {
 #sobre td {
   font-size: 20px;
 }
+
+#corpoPageQuemSou {
+  background-color: rgb(166, 166, 166);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+
+#corpoPageQuemSou h1 {
+  text-align: left;
+  font-weight: bolder;
+}
+
+#corpoPageQuemSou h3 {
+  text-align: justify;
+  font-weight: normal;
+}
+
+#tituloProgressBar {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#progressBar {
+  white-space: nowrap;
+}
+
+.data {
+  white-space: nowrap;
+}
+
+.experiencia {
+  text-align: left;
+  font-weight: bold;
+  font-size: x-large;
+
+}
+
+.tituloExperiencia {
+  text-align: left;
+  font-weight: bold;
+}
+
+
+
+#projetos {
+  background-color: rgb(166, 166, 166);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+#descProjetos td{
+  text-align:justify;
+}
+
+#textDescricaoCabecalho h2{
+text-align: left;
+}
+
+#textDescricaoCabecalho {
+text-align: left;
+font-weight: normal;
+line-height: 0.3;
+}
+
+
+#corpoPageContato {
+  background-color: rgb(166, 166, 166);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+
+
 
 #rodape {
   text-align: center;
