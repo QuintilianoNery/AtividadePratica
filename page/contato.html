@@ -60,16 +60,25 @@
         <tr>
           <td>
             <p>
+              <label for="assunto">Assunto</label> <br>
+              <select id="assunto" name="assunto">
+                <option value="padrao">Selecione aqui um assunto de contato</option>
+                <option value="contratacao">Quero contratar seu trabalho</option>
+                <option value="duvidasQA">Quero tirar dúvdas sobre QA</option>
+                <option value="duvidasDEV">Quero tirar dúvdas sobre DEV</option>
+              </select>
+            </p>
+            <p>
               <label for="nome">Nome</label> <br>
-              <input type="text" name="Nome" id="nome">
+              <input type="text" name="Nome" id="nome" placeholder="Digite aqui seu nome">
             </p>
             <p>
               <label for="email">E-mail</label><br>
-              <input type="email" name="Email" id="email">
+              <input type="email" name="Email" id="email" placeholder="seuemail@servidor.com.br">
             </p>
             <p>
               <label for="telefone">Telefone</label><br>
-              <input type="tel" name="Telefone" id="telefone">
+              <input type="tel" name="Telefone" id="telefone" placeholder="(99) 9 9999-9999)">
             </p>
             <p>
               <label for="mensagem">Digite aqui sua mensagem:</label> <br>
@@ -78,26 +87,21 @@
             <p>
               <input type="button" value="Enviar" onclick="alert('Mensagem enviada! Obrigado')">
             </p>
-            <p>sdfsdfsdf</p>
+            <hr noshade> 
           </td>
         </tr>
         <tr>
           <td>
             <h3>Outras formas de contato: </h3>
-            
-              Residente em Cachoeiro de Itapemirim/ES <br>
-              <a href="mailto:quintiliano1995@gmail.com">quintiliano1995@gmail.com</a> <br>
-              <a target="_blank" href="https://www.linkedin.com/in/quintilianonery/">Linkedin</a><br>
-              <a target="_blank" href="https://github.com/QuintilianoNery">Git Hub</a>
-            
+            Residente em Cachoeiro de Itapemirim/ES <br>
+            <a href="mailto:quintiliano1995@gmail.com">quintiliano1995@gmail.com</a> <br>
+            <a target="_blank" href="https://www.linkedin.com/in/quintilianonery/">Linkedin</a><br>
+            <a target="_blank" href="https://github.com/QuintilianoNery">Git Hub</a>
           </td>
         </tr>
       </tbody>
     </table>
   </div>
-
-
-
   <div id="rodape">
     <table width="100%" cellpadding="20">
       <thead>

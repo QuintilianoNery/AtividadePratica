@@ -186,18 +186,18 @@ body {
   font-size: 20px;
 }
 
-#descProjetos td{
-  text-align:justify;
+#descProjetos td {
+  text-align: justify;
 }
 
-#textDescricaoCabecalho h2{
-text-align: left;
+#textDescricaoCabecalho h2 {
+  text-align: left;
 }
 
 #textDescricaoCabecalho {
-text-align: left;
-font-weight: normal;
-line-height: 0.3;
+  text-align: left;
+  font-weight: normal;
+  line-height: 0.3;
 }
 
 
@@ -210,8 +210,30 @@ line-height: 0.3;
   line-height: 1.2;
 }
 
+#corpoPageContato input, select {
+  width: 50%;
+  padding: 5px 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
 
+}
 
+#corpoPageContato textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+hr{
+  width: 125%;
+  align-items: center;
+}
 
 #rodape {
   text-align: center;
